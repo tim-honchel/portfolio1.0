@@ -123,16 +123,18 @@ li, p {
         height: 100%;
         width: 100%;
         display: block;
+        background-position:center;
+        
     }
   
     h1 {
         font-size:18pt;
-        color:black;
+        color:white;
     }
 
     h5 {
         font-size:12pt;
-        color:black;
+        color:white;
     }
        
 

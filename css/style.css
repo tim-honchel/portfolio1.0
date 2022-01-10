@@ -172,7 +172,7 @@ h5 {
   min-width: 300px;
   left: 50%;
   top: 60%;
-  padding: 65px;
+  padding: 15px;
   background:transparent; /* change color and outline here */
   outline:none;
   outline-offset: 8px;
@@ -186,7 +186,7 @@ h5 {
   min-width: 300px;
   left: 50%;
   top: 50%;
-  padding: 65px;
+  padding: 30px;
   background:transparent; /* change color and outline here */
   outline:none;
   outline-offset: 8px;

@@ -90,12 +90,15 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["<h5>Full-stack software engineer...</h5>", "<h5>Creative, logical, and driven...</h5>", "<h5>See more below...</h5>"],
+        strings: ["<h5>Software engineer...</h5>", "<h5>Creative and driven...</h5>", "<h5>See more below...</h5>"],
         typeSpeed: 10,
         backSpeed: 1,
         backDelay: 900,
         // loop
         loop: true
+
+        
+        
     });
 
     //owl carousel

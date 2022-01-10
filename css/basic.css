@@ -100,10 +100,22 @@ li, p {
         box-shadow: 5px 5px 5px #888888 ;
     }
     
+    .hero-content {
+        padding:15px;
+        top:55%;
+
+    }
+
+    .hero-title-content {
+        padding:15px;
+        top:45%;
+
+    }
+
     #home {
         background: url("/images/background-mobile.jpg");
-        max-width: auto;
-        height:100%;
+        max-height:auto;
+        width:100%;
     }
   
     h1 {

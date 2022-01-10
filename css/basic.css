@@ -129,13 +129,15 @@ li, p {
     
     .hero-content {
         padding:15px;
-        top:75%;
+        left:40%;
+        top:68%;
 
     }
 
     .hero-title-content {
         padding:15px;
-        top:65%;
+        left:40%;
+        top:60%;
 
     }
 

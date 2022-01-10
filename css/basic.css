@@ -78,6 +78,33 @@ li, p {
     column-gap:1%;
 }
 
+@media screen and (max-height: 481px){
+
+    .hero-content {
+        padding:5px;
+        top:60%;
+
+    }
+
+    .hero-title-content {
+        padding:5px;
+        top:40%;
+
+    }
+  
+    h1 {
+        font-size:18pt;
+        color:white;
+    }
+
+    h5 {
+        font-size:12pt;
+        color:white;
+    }
+
+}
+
+
 @media screen and (max-width: 481px){
 
     .column-2 {

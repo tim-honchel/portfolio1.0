@@ -44,7 +44,7 @@ h3:hover {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/banner.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/background3.jpg");
     height: 100vh;
     width: 100vw;
     background-position: center;
@@ -109,16 +109,18 @@ li, p {
     }
     
     .hero-image {
-        max-width: 100%;
-        height: auto;
-       }
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/background-mobile.jpg");
+        max-width: auto;
+        height: 100%;
+        
+    }
   
     h1 {
-        font-size:smaller;
+        font-size:14pt;
     }
 
     h5 {
-        font-size:smaller;
+        font-size:10pt;
     }
        
 

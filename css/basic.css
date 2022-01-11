@@ -4,16 +4,19 @@ a {
 }
 
 body {
-    background-color:rgb(231, 239, 250);
+    /*background-color:rgb(231, 239, 250);*/
+    background-color:rgba(245, 245, 245, 0.829);
     
 }
 
 .column-2 {
     float:left;
     width: 49.5%;
-    border:1px solid darkblue;
+    /*border:1px solid darkblue;*/
+    border:1px solid gray;
     padding:30px;
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
+    background-color: white;
     border-radius:15px;
     box-shadow: 5px 5px 5px #888888 ;
 }
@@ -21,9 +24,11 @@ body {
 .column-3 {
     float:left;
     width: 32.66%;
-    border:1px solid darkblue;
+    /*border:1px solid darkblue;*/
+    border:1px solid gray;
     padding:30px;
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
+    background-color: white;
     border-radius:15px;
     box-shadow: 5px 5px 5px #888888 ;
     
@@ -34,16 +39,10 @@ body {
 }
 
 h3 {
-    color:goldenrod;
+    /* color:goldenrod; */
     text-align: center;
     font-size:36pt;
 }
-
-h3:hover {
-    color: darkgoldenrod;
-}
-
-
 
 .hero-text {
     text-align: center;

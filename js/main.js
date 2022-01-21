@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["<h5>Software engineer...</h5>", "<h5>Creative and driven...</h5>", "<h5>See more below...</h5>"],
+        strings: ["<h5>Software engineering</h5>", "<h5>Clear and concise</h5>", "<h5>How can I help you?</h5>"],
         typeSpeed: 10,
         backSpeed: 1,
         backDelay: 900,

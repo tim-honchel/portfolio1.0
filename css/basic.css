@@ -23,7 +23,7 @@ body {
 
 .column-3 {
     float:left;
-    width: 32.66%;
+    width: 32%;
     /*border:1px solid darkblue;*/
     border:1px solid gray;
     padding:30px;
@@ -85,7 +85,7 @@ li, p {
 }
 
 .row {
-    column-gap:1%;
+    column-gap:2%;
 }
 
 @media screen and (max-height: 481px){

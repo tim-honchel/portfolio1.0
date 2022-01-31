@@ -10,7 +10,7 @@ body {
 }
 
 .column-1 {
-    float:center;
+    float:left;
     width: 50%;
     /*border:1px solid darkblue;*/
     border:1px solid gray;

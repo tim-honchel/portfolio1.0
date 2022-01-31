@@ -9,6 +9,18 @@ body {
     
 }
 
+.column-1 {
+    float:center;
+    width: 50%;
+    /*border:1px solid darkblue;*/
+    border:1px solid gray;
+    padding:30px;
+    /*background-color: aliceblue;*/
+    background-color: white;
+    border-radius:15px;
+    box-shadow: 5px 5px 5px #888888 ;
+}
+
 .column-2 {
     float:left;
     width: 49.5%;

@@ -148,6 +148,10 @@ li, p {
         border-radius:15px;
         box-shadow: 5px 5px 5px #888888 ;
     }
+
+    #container-image {
+        background-image: none;
+    }
     
     .hero-content {
         padding:15px;

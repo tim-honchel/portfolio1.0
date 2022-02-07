@@ -60,6 +60,10 @@ h3 {
     font-size:36pt;
 }
 
+h6 {
+    text-align:center;
+}
+
 .hero-text {
     text-align: center;
     position: absolute;

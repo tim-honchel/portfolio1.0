@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tim Honchel - Software Portfolio</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="MLB Historical All Stars Project" property="og:title">
+    <meta name="description" content="Choose a starting and ending year and generate an All Star team of the top players during that time period." property="og:description">
+    <meta name="author" content="Tim Honchel" >
+    <meta name ="image" content="https://tim-honchel.github.io/images/keyboard.png" property="og:image">
+    <!--Fav-->
+    <link href="images/favicon.ico" rel="shortcut icon">
+    
+    <!--styles-->
+    
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/basic.css" rel="stylesheet">
+    
+
+  </head>
+  <body>
+    <!--CONTENT WRAP-->
+    <div class="content-wrap">
+        <!--CONTENT-->
+        <div class="content">  
+            <section id="resume"> 
+                <a href="https://tim-honchel.github.io">Back to Home Page</a> 
+                <h3>MLB Historical All Stars</h3>
+                <h6>Choose a starting and ending year and generate an All Star team of the top players during that time period.</h6>
+                <br>
+                <div class="row">
+                    <div class="column-3">
+                    <p id="lead">Application</p>
+                    <p id="follow"><a href = "https://mlb-historical-all-star-team.herokuapp.com/" target="_blank">Try the Live Demo (Incomplete)</a></p>
+                    <img src="images/baseballGIF.gif" class="project2">
+                    <br>
+                    <p id="follow"><em>Created 2022.02.07. Updated 2022.02.11.</em></p>
+                    <p id="follow"><u>Special Features:</u></p>
+                    <ul>
+                        <li>Uses Beautiful Soup to scrape multiple Fangraphs webpages for data</li>
+                        <li>Parsing methods isolate individual statistics and assign them to a player object</li>
+                    </ul>
+                    <p id="follow"><u>Features in Development:</u></p>
+                    <ul>
+                        <li>Algorithm to narrow roster down to top 25 players while meeting positional requirements</li>
+                    </ul>
+                    <br>
+                    
+                    </div>
+                    <div class ="column-3">
+                        <p id ="lead">Operating Instructions</p>
+                        <p id="follow">Enter a starting and ending year (must be between 1900 and 2021).</p>
+                        <img src="images/baseball-instructions.png" width = 75%>
+                        <p id="follow">When you click "search", it may take up to a minute to load your results.</p>
+                        <p id="follow">Displays the top 9 starting pitchers, 7 relief pitchers, 3 catchers, 3 first basemen, 3 second basemen, 3 third basemen, 3 shortstops, 3 left fielders, 3 center fielders, 3 right fielders, and 2 designated hitters (by WAR).</p>
+                    </div>
+                    <div class ="column-3">
+                        <p id ="lead">Development</p>
+                        <p id = "follow"><a href = "http://github.com/tim-honchel/BaseballAllStars" target="_blank">View the code on GitHub</a></p>
+                        <p id = "follow">The project was edited in PyCharm using HTML and Python. Git was used for version control.</p>
+                        <p id = "follow"><u>Goals</u></p>
+                        <ul>
+                            <li>Customizable time period</li>
+                            <li>Automatic roster construction</li>
+                            <li>All information in one place</li> 
+                        </ul>
+                        <p id = "follow"><u>User Stories</u></p>
+                        <ul>
+                            <li>Enter a time period to search</li>
+                            <li>See the top MLB players in that time period</li>
+                            <li>Assemble those top players into a realistic 25 man roster</li>
+                            <li>See the All-Stars most relevant statistics</li>
+                            <li>Generate a new search</li>
+                        </ul>
+                    </div>
+                    <br>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+  </body>

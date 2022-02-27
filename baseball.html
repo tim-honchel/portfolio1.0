@@ -8,7 +8,7 @@
     <meta name="title" content="MLB Historical All Stars Project" property="og:title">
     <meta name="description" content="Choose a starting and ending year and generate an All Star team of the top players during that time period." property="og:description">
     <meta name="author" content="Tim Honchel" >
-    <meta name ="image" content="https://tim-honchel.github.io/images/keyboard.png" property="og:image">
+    <meta name ="image" content="https://tim-honchel.github.io/images/baseball-results.png" property="og:image">
     <!--Fav-->
     <link href="images/favicon.ico" rel="shortcut icon">
     
@@ -33,35 +33,36 @@
                 <div class="row">
                     <div class="column-3">
                     <p id="lead">Application</p>
-                    <p id="follow"><a href = "https://mlb-historical-all-star-team.herokuapp.com/" target="_blank">Try the Live Demo (Incomplete)</a></p>
+                    <p id="follow"><a href = "https://mlb-historical-all-star-team.herokuapp.com/" target="_blank">Try the Application</a></p>
                     <img src="images/baseballGIF.gif" class="project2">
                     <br>
-                    <p id="follow"><em>Created 2022.02.07. Updated 2022.02.23.</em></p>
+                    <p id="follow"><em>Created 2022.02.07. Updated 2022.02.25.</em></p>
                     <p id="follow"><u>Special Features:</u></p>
                     <ul>
-                        <li>Uses Beautiful Soup to scrape multiple Fangraphs webpages for data</li>
+                        <li>Uses Asyncio and Beautiful Soup to asynchronously scrape multiple Fangraphs webpages for data</li>
                         <li>Parsing methods isolate individual statistics and assign them to a player object</li>
+                        <li>Sorting methods and roster construction logic to determine the top 25 players</li>
                     </ul>
                     <p id="follow"><u>Features in Development:</u></p>
                     <ul>
-                        <li>Troubleshoot connection tiemeouts</li>
                         <li>Write results to database so future searches will be faster</li>
-                        <li>Include honorable mentions</li>
                     </ul>
                     <br>
                     
                     </div>
                     <div class ="column-3">
                         <p id ="lead">Operating Instructions</p>
-                        <p id="follow">Enter a starting and ending year (must be between 1900 and 2021).</p>
+                        <p id="follow">Enter a starting and ending year between 1900 and 2021.</p>
+                        <p id=""follow">Choose "All Teams", a league, or a specific team.</p>
                         <img src="images/baseball-instructions.png" width = 75%>
-                        <p id="follow">When you click "search", it may take up to a minute to load your results.</p>
-                        <p id="follow">Displays a team of the top 25 players during that time period, using WAR, and standard roster construction principles.</p>
+                        <p id="follow">When you click "search", it may take several seconds to load your results.</p>
+                        <p id="follow">Displays a team of the top 25 players during that time period.</p>
+                        <img src="images/baseball-results.png" width = 75%>
                     </div>
                     <div class ="column-3">
                         <p id ="lead">Development</p>
                         <p id = "follow"><a href = "http://github.com/tim-honchel/BaseballAllStars" target="_blank">View the code on GitHub</a></p>
-                        <p id = "follow">The project was edited in PyCharm using HTML and Python. Git was used for version control.</p>
+                        <p id = "follow">The project was edited in PyCharm using HTML and Python. Git was used for version control. Deployed with Heroku.</p>
                         <p id = "follow"><u>Goals</u></p>
                         <ul>
                             <li>Customizable time period</li>

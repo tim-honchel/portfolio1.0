@@ -103,6 +103,13 @@ li, p {
     width:100%;
 }
 
+.project4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+}
+
 #resume {
     margin:2%;
 }
